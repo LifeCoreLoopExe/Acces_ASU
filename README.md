@@ -9,6 +9,8 @@
 2. Запусти **Blank Database**.  
 3. Назови файл `Attendance.accdb`, нажми **Create**.
 
+![Скрин 1 – Blank Database](Image/1.png)
+
 ---
 
 ## 1. Таблица Groups (`tblGroups`)
@@ -70,6 +72,7 @@
 
 Поставь галочки **Enforce Referential Integrity** и **Cascade Delete**.
 
+![Скрин 2 – Relationships](Image/2.png)
 
 ---
 
@@ -86,6 +89,7 @@
 3. Добавь **Subform** (табличный режим) на запрос `qryStudentsOfLesson`, выводящий студентов группы выбранного урока.  
 4. В сабформе поля `Surname`, `Name`, Checkbox `Absent?`, Checkbox `Excused?`.  
 
+![alt text](Image/3.png)
 
 ---
 
@@ -161,6 +165,7 @@ End Sub
 - **rptGroupSummary** на `qryGroupSummary`.  
 - **rptDailyMiss** на `qryDailyMiss`.  
 
+![alt text](Image/4.png)
 
 ---
 
